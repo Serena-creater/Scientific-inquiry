@@ -1,0 +1,124 @@
+html, body {
+    font-family: arial;
+    height: 100%;
+    margin: 0 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+    
+div.block1 {
+    height: 100%;
+    background-image: url('../img/part1_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color:black;
+}
+
+div.block2 {
+    height: 100%;
+    background-color:#E3FDFD;
+    color:black;
+}
+
+div.block3 {
+    height: 100%;
+    background-color:#CDF1F5;
+    color:black;
+}
+
+div.block4 {
+    height: 100%;
+    background-color:#A6E3E9;
+    color:black;
+}
+
+div.block5 {
+    height: 100%;
+    background-color:#00ADB5;
+    color:white;
+}
+
+div.block6 {
+    height: 100%;
+    background-color:#393E46;
+    color:white;
+}
+
+footer {
+    height: 10%;
+    background-color:#222831;
+    color:white;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#EEEEEE;
+
+}
+  
+ul.topnav li {
+    float: left;
+}
+ul.topnav li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color:white;
+}
+
+ul.topnav li a.active {
+    background-color:white;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+table {
+    border: 1px solid white;
+    padding: 5px;
+  }
+  table {
+    border-spacing: 5px;
+  }
+
+th, td {
+    padding: 5px;
+  }
+
+th, td {    
+  border-spacing: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
